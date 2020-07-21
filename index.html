@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap" rel="stylesheet">
+    <title>IGP Fitness</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md custom-nav navbar-dark fixed-top">
+            <img class="navbar-brand" id="navbar-igp-logo" src="./assets/img/igplogo.png">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse nav-item-holder navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Étrend</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Edzésterv</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Csomag</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Fiókom</a>
+                    </li>
+                    <li class="nav-item round-item">
+                        <a class="nav-link" href="#">Regisztráció</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        <div id="main-header">
+            <div id="main-header-inner">
+                <img class="red-circle" src="./assets/img/kor2.png">
+                <img class="white-circle" src="./assets/img/kor1.png">
+                <img class="white-square" src="./assets/img/negyzet.png">
+                <img class="green-plus" src="./assets/img/plusz.png">
+                <img class="white-plus" src="./assets/img/plusz2.png">
+                <img class="green-zigzag" src="./assets/img/cikkcakk2.png">
+                <img class="white-triangle" src="./assets/img/haromszog1.png">
+                <img class="purple-square" src="./assets/img/negyzet2.png">
+                <div class="container header-text">
+                    <p class="side-note white-text text-uppercase font-weight-bolder">Individually guided project of
+                        fitness</p>
+                    <h1 class="bald-text white-text font-weight-bold">IGP Fitness</h1>
+                    <h1 class="bald-text green-text font-weight-bold">Shape your life</h1>
+                    <p class="filler-text light-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Pellentesque
+                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <a class="btn-border" href="#">Tovább</a>
+                </div>
+                <div class="body-img">
+                    <img id="male" src="assets/img/man.png">
+                </div>
+                <div class="body-img">
+                    <img id="female" src="assets/img/woman_4.png">
+                </div>
+            </div>
+        </div>
+        <div class="ajanlatok row">
+            <div class="col-sm-4 img-cover d-flex justify-content-center flex-sm-column align-items-center">
+                <div class="etrend img-to-cover"></div>
+                <div class="small-img-overlay etrend-overlay"></div>
+                <div class="small-text-holder">
+                    <p class="white-text uppercase igp-small font-weight-bold">IGP Fitness</p>
+                    <h1 class="white-text uppercase ajanlat-h1 font-weight-bold">Étrend</h1>
+                    <a href="#" class="btn-border small-btn">Érdekel</a>
+                </div>
+            </div>
+            <div class="col-sm-4 img-cover d-flex justify-content-center flex-sm-column align-items-center">
+                <div class="edzesterv img-to-cover"></div>
+                <div class="small-img-overlay edzesterv-overlay"></div>
+                <div class="small-text-holder">
+                    <p class="white-text uppercase igp-small font-weight-bold">IGP Fitness</p>
+                    <h1 class="white-text uppercase ajanlat-h1 font-weight-bold">Edzésterv</h1>
+                    <a href="#" class="btn-border small-btn">Érdekel</a>
+                </div>
+            </div>
+            <div class="col-sm-4 img-cover d-flex justify-content-center flex-sm-column align-items-center">
+                <div class="fit-csomag img-to-cover"></div>
+                <div class="small-img-overlay fit-overlay"></div>
+                <div class="small-text-holder">
+                    <p class="white-text uppercase igp-small font-weight-bold">IGP Fitness</p>
+                    <h1 class="white-text uppercase ajanlat-h1 font-weight-bold">Fit Csomag</h1>
+                    <a href="#" class="btn-border small-btn">Érdekel</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <h4 class="catch-phrase text-center font-weight-bold uppercase">Amit mi kínálunk</h4>
+                <h1 class="cél text-center uppercase font-weight-bold">Fogalmazd meg a célod</h1>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-sm-3 rounded mx-auto d-block">
+                        <img class="piktogram rounded mx-auto d-block" src="./assets/img/lila_uveg.png" alt="üveg">
+                        <h4 class="kínálat text-center font-weight-bolder">Egészséges élet</h4>
+                        <p class="filler-content text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Ut ut auctor
+                            erat.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img class="piktogram rounded mx-auto d-block" src="./assets/img/sulyzo.png" alt="súlyzó">
+                        <h4 class="kínálat text-center font-weight-bolder">Edzés</h4>
+                        <p class="filler-content text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Ut ut auctor
+                            erat.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img class="piktogram rounded mx-auto d-block" src="./assets/img/tabla.png" alt="tábla">
+                        <h4 class="kínálat text-center font-weight-bolder">Stratégia</h4>
+                        <p class="filler-content text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Ut ut auctor
+                            erat.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div>
+                            <img class="piktogram rounded mx-auto d-block" src="./assets/img/video.png" alt="videó">
+                            <h4 class="kínálat text-center font-weight-bolder">Videók</h4>
+                            <p class="filler-content text-center">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Ut ut
+                                auctor erat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="szöveg-video container">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <h4 class="catch-phrase-wo-padding text-left uppercase font-weight-bold">Változz velünk</h4>
+                    <h1 class="cél text-left uppercase font-weight-bold">Hogyan segítünk?</h1>
+                    <p class="filler-content text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas vel
+                        aliquet ligula. Maecenas eu laoreet arcu. Nulla malesuada, metus sit amet scelerisque posuere,
+                        nisi quam volutpat nisi, vitae cursus elit dolor ac dolor. Suspendisse gravida consequat
+                        molestie. </p>
+                    <a class="btn-border-fading mt-50" href="#">Olvass tovább</a>
+                </div>
+                <div
+                    class="d-flex justify-content-center align-items-center col-md-6 embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="main-header-inner" class="cards-holder d-flex justify-content-center">
+            <img class="red-circle-2" src="./assets/img/kor2.png">
+            <img class="white-circle-2" src="./assets/img/kor1.png">
+            <img class="red-zigzag-2" src="./assets/img/cikkcakk1.png">
+            <img class="green-zigzag-2" src="./assets/img/cikkcakk2.png">
+            <img class="white-square-2" src="./assets/img/negyzet.png">
+            <img class="green-plus-2" src="./assets/img/plusz.png">
+            <div class="row cards-row">
+                <div class="card-holder col-lg-3 col-md-6">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h4 class="card-title ár font-weight-bold">20.000 Ft</h4>
+                            <p class="card-text uppercase font-weight-bold">IGP Fitness</p>
+                            <h2 class="card-title card-étrend uppercase font-weight-bold">Étrend</h2>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem ipsum</li>
+                            <li class="list-group-item">Lorem ipsum dolor</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet</li>
+                        </ul>
+                        <div class="last-item"><a href="#" class="btn-border-fading">Tovább</a></div>
+                    </div>
+                </div>
+                <div class="card-holder col-lg-3 col-md-6">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h4 class="card-title ár font-weight-bold">20.000 Ft</h4>
+                            <p class="card-text uppercase font-weight-bold">IGP Fitness</p>
+                            <h2 class="card-title card-edzés uppercase font-weight-bold">Edzésterv</h2>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem ipsum</li>
+                            <li class="list-group-item">Lorem ipsum dolor</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet</li>
+                        </ul>
+                        <div class="last-item"><a href="#" class="btn-border-fading">Tovább</a></div>
+                    </div>
+                </div>
+                <div class="card-holder col-lg-3 col-md-6">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h4 class="card-title ár font-weight-bold">15.000 Ft</h4>
+                            <p class="card-text uppercase font-weight-bold">IGP Fitness</p>
+                            <h2 class="card-title card-fit-csomag uppercase font-weight-bold">Fit csomag</h2>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem ipsum</li>
+                            <li class="list-group-item">Lorem ipsum dolor</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet</li>
+                        </ul>
+                        <div class="last-item"><a href="#" class="btn-border-fading">Tovább</a></div>
+                    </div>
+                </div>
+                <div class="card-holder col-lg-3 col-md-6 d-flex align-items-center flex-md-column col-md-3">
+                    <h4 class="catch-phrase-white text-center uppercase white-text">Változz velünk</h4>
+                    <h2 class="IGP-white text-center uppercase white-text font-weight-bold">IGP</h2>
+                    <p class="filler-content text-center white-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Maecenas vel
+                        aliquet ligula. </p>
+                </div>
+            </div>
+        </div>
+        <div class="hirlevél-back">
+            <div class="hirlevél-holder container">
+                <div class="row">
+                    <div class="col-xl-7  col-md-12 hirlevél">
+                        <h5 class="hirlevél-text white-text uppercase font-weight-bold">Ne maradj le semmiről,</h5>
+                        <h3 class="hirlevél-text white-text uppercase font-weight-bold">Iratkozz fel hírlevelünkre!</h3>
+                    </div>
+                    <div class="col-xl-5 col-md-12">
+                        <div class="input-group  hirlevél">
+                            <input type="text" class="form-control white-text transparent-input" placeholder="E-mail">
+                            <div class="input-group-append button-to-left">
+                                <a href="#" class="btn-border-white font-weight-bold">Feliratkozom</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <div class="text-center videotext-holder">
+                <p class="catch-phrase uppercase font-weight-bold">Video</p>
+                <h3 class="uppercase font-weight-bold">Videos edzéseink</h3>
+                <p class="filler-content">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Maecenas vel
+                    aliquet ligula. Consectetur adipiscing
+                    elit. Maecenas vel
+                    aliquet ligula.</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="video-session container cont-padding">
+                <div class="ajanlatok-video row">
+                    <div class="video-holder col-lg-3 col-md-6">
+                        <div class="d-flex justify-content-center video-parent">
+                            <p class="video-child text-center">10:35</p>
+                            <img class="video-img" src="./assets/img/victor-freitas-WvDYdXDzkhs-unsplash.jpg">
+                        </div>
+                        <p>2019 Július 20.</p>
+                        <p class="video-tartalom font-weight-bold">Súlyzós edzések (1/14)</p>
+                        <a class="tovább uppercase" href="#">Tovább</a>
+                    </div>
+                    <div class="video-holder col-lg-3 col-md-6">
+                        <div class="d-flex justify-content-center video-parent">
+                            <p class="video-child text-center">10:35</p>
+                            <img class="video-img" src="./assets/img/emily-sea-coiWR0gT8Cw-unsplash.jpg">
+                        </div>
+                        <p>2019 Július 20.</p>
+                        <p class="video-tartalom font-weight-bold">Yoga kezdőknek</p>
+                        <a class="tovább uppercase" href="#">Tovább</a>
+                    </div>
+                    <div class="video-holder-big col-lg-6 col-md-12">
+                        <div class="d-flex justify-content-center video-parent">
+                            <p class="video-child text-center">10:35</p>
+                            <img class="video-img-big" src="./assets/img/meghan-holmes-wy_L8W0zcpI-unsplash.jpg">
+                        </div>
+                        <p>2019 Július 20.</p>
+                        <p class="video-tartalom font-weight-bold">Fitness, cardio, motiváció (2/10)</p>
+                        <a class="tovább uppercase" href="#">Tovább</a>
+                    </div>
+                </div>
+                <div class="ajanlatok-video row">
+                    <div class="video-holder-big col-md-6">
+                        <div class="d-flex justify-content-center video-parent">
+                            <p class="video-child text-center">10:35</p>
+                            <img class="video-img-big" src="./assets/img/arthur-edelman-qfjuh4OLdxw-unsplash.jpg">
+                        </div>
+                        <p>2019 Július 20.</p>
+                        <p class="video-tartalom font-weight-bold">Súlyzós edzések (2/14)</p>
+                        <a class="tovább uppercase" href="#">Tovább</a>
+                    </div>
+                    <div class="video-holder col-md-3">
+                        <div class="d-flex justify-content-center video-parent">
+                            <p class="video-child text-center">10:35</p>
+                            <img class="video-img" src="./assets/img/tammy-gann-wiI32TvuGi8-unsplash.jpg">
+                        </div>
+                        <p>2019 Július 20.</p>
+                        <p class="video-tartalom font-weight-bold">Nyújtsunk együtt</p>
+                        <a class="tovább uppercase" href="#">Tovább</a>
+                    </div>
+                    <div class="video-holder col-md-3">
+                        <div class="d-flex justify-content-center video-parent">
+                            <p class="video-child text-center">10:35</p>
+                            <img class="video-img" src="./assets/img/danny-kekspro-MJRyDPYaOLA-unsplash.jpg">
+                        </div>
+                        <p>2019 Július 20.</p>
+                        <p class="video-tartalom font-weight-bold">A futás technikája</p>
+                        <a class="tovább uppercase" href="#">Tovább</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a class="btn-border-fading text-center" href="#">Összes</a>
+        </div>
+        <div class="container text-center">
+            <p class="catch-phrase uppercase font-weight-bold">IGP Fitness</p>
+            <h3 class="uppercase font-weight-bold"> A csapatunk</h3>
+        </div>
+        <div class="csapat-img-holder">
+            <div class="row">
+                <div class="imgs imgs-1 col-md-3">
+                </div>
+                <div class="imgs col-md-3 d-flex align-items-center justify-content-center">
+                    <div class="imgs-2 img-to-cover"></div>
+                    <div class="small-img-overlay sam-smith-overlay"></div>
+                    <div class="small-text-holder">
+                        <h5 class="white-text uppercase ajanlat-h1 font-weight-bold">Sam Smith</h5>
+                        <p class="white-text uppercase igp-small font-weight-bolder">Personal trainer</p>
+                    </div>
+                </div>
+                <div class="imgs imgs-3 col-md-3">
+                </div>
+                <div class="imgs imgs-4 col-md-3">
+                </div>
+            </div>
+        </div>
+        <div class="kép-szöveg container">
+            <div class="row">
+                <div class="jumping-teens col-lg-6 col-md-12">
+
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <p class="catch-phrase-wo-padding text-right uppercase font-weight-bold">Csapatban</p>
+                    <h1 class="cél text-right uppercase font-weight-bold">Cégeknek</h1>
+                    <p class="filler-content text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas vel
+                        aliquet ligula. Maecenas eu laoreet arcu. Nulla malesuada, metus sit amet scelerisque posuere,
+                        nisi quam volutpat nisi, vitae cursus elit dolor ac dolor. Suspendisse gravida consequat
+                        molestie. </p>
+                    <div class="read-more">
+                        <a class="btn-border-fading" href="#">Olvass tovább</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="text-center catch-phrase uppercase font-weight-bold">Blog</p>
+            <h1 class="text-center uppercase news font-weight-bold">Legfrissebb hírek</h1>
+        </div>
+        <div class="container">
+            <div class="row stay-fit-cards-row">
+                <div class="col-lg-4 col-md-12 card-height">
+                    <div class="card hir-card">
+                        <img src="./assets/img/happy-young-women-enjoying-bike-ride-PWHKD5H.jpg"
+                            class="card-img-top card-img-height" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">2019. Július 20</small></p>
+                            <h5 class="card-title uppercase title-ts-separator font-weight-bold">Maradj fit</h5>
+                            <p class="card-text filler-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Maecenas vel
+                                aliquet ligula.</p>
+                            <a class="tovább uppercase" href="#">Olvass tovább</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 card-height">
+                    <div class="card hir-card">
+                        <img src="./assets/img/healthy-food-LH758VD.jpg" class="card-img-top card-img-height" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">2019. Július 20</small></p>
+                            <h5 class="card-title uppercase title-ts-separator font-weight-bold">Maradj fit</h5>
+                            <p class="card-text filler-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Maecenas vel
+                                aliquet ligula.</p>
+                            <a class="tovább uppercase" href="#">Olvass tovább</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 card-height">
+                    <div class="card hir-card">
+                        <img src="./assets/img/flexible-young-woman-doing-stretching-yoga-PVGGTTK.jpg"
+                            class="card-img-top card-img-height" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">2019. Július 20</small></p>
+                            <h5 class="card-title uppercase title-ts-separator font-weight-bold">Maradj fit</h5>
+                            <p class="card-text filler-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Maecenas vel
+                                aliquet ligula.</p>
+                            <a class="tovább uppercase" href="#">Olvass tovább</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center more-news">
+            <a class="btn-border-fading text-center" href="#">Összes</a>
+        </div>
+        <div class="last-img-row">
+            <div class="row">
+                <div
+                    class="imgs kep-1 col-md-3 d-flex align-items-center justify-content-center flex-md-column text-center">
+                    <div class="container">
+                        <p class="white-text">"Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="white-text">Sam Smith</p>
+                    </div>
+                </div>
+                <div
+                    class="imgs kep-2 col-md-3 d-flex align-items-center justify-content-center flex-md-column text-center">
+                    <p class="white-text uppercase font-weight-bold">IGP Fitness</p>
+                    <h1 class="uppercase white-text font-weight-bold">Fit csomag</h1>
+                    <a href="#" class="btn-border-white font-weight-bold">Tovább</a>
+                </div>
+                <div
+                    class="imgs kep-3 col-md-6 d-flex align-items-center justify-content-center flex-md-column text-center">
+                    <img id="insta-logo-size" src="./assets/img/instalogo.png">
+                    <h1 class="uppercase insta white-text font-weight-bold">#IGPFitness</h1>
+                    <a class="btn-border-fading text-center" href="#">Kövess minket</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="container footer-container">
+                <div class="row">
+                    <div class="col-md-3 footer-grid-pieces">
+                        <h5 class="white-text uppercase font-weight-bold">IGP Fitness</h5>
+                        <p class="white-text filler-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Amet nobis, veritatis.</p>
+                        <p class="white-text">+36 30 333 3333</p>
+                    </div>
+                    <div class="col-md-3 footer-grid-pieces text-left">
+                        <h5 class="white-text uppercase font-weight-bold">Hírek</h5>
+                        <div class="row footer-border">
+                            <div class="col-md-3 footer-pic-1 d-flex justify-content-center align-items-center">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="white-text uppercase footer-text">Lorem ipsum dolor sit</p>
+                                <p class="white-text footer-text">2019.07.16</p>
+                            </div>
+                        </div>
+                        <div class="row footer-border">
+                            <div class="col-md-3 footer-pic-2 d-flex justify-content-center align-items-center">
+                            </div>
+                            <div class="col-md-9">
+                                <p class="white-text uppercase footer-text">Lorem ipsum dolor sit</p>
+                                <p class="white-text footer-text">2019.07.16</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-left footer-insta footer-grid-pieces">
+                        <h5 class="white-text uppercase font-weight-bold">Instagram</h5>
+                        <div class="footer-insta-img-1 footer-insta-img">
+                            <img class="footer-insta-img" src="./assets/img/a420108ab075db7379aac12b39f91e81.jpg">
+                        </div>
+                        <div class="footer-insta-img-2 footer-insta-img">
+                            <img class="footer-insta-img" src="./assets/img/5bf676182db10527a16f15e0943fd326.jpg">
+                        </div>
+                        <div class="footer-insta-img-3 footer-insta-img">
+                            <img class="footer-insta-img" src="./assets/img/313ce4c87fea01c1722faf3f7d3a2337.jpg">
+                        </div>
+                        <div class="footer-insta-img-4 footer-insta-img">
+                            <img class="footer-insta-img" src="./assets/img/a0a369fed45161272f4f1f3632320acc.jpg">
+                        </div>
+                        <div class="footer-insta-img-5 footer-insta-img">
+                            <img class="footer-insta-img" src="./assets/img/052012a8823c17a5af72de9d8aa59396.jpg">
+                        </div>
+                        <div class="footer-insta-img-6 footer-insta-img">
+                            <img class="footer-insta-img" src="./assets/img/4628c965defc8e33b463569fedaaf530.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-list">
+                        <h5 class="white-text uppercase font-weight-bold">Hasznos</h5>
+                        <ul>
+                            <li class="footer-li-item white-text">Kapcsolat</li>
+                            <li class="footer-li-item white-text">Cégeknek</li>
+                            <li class="footer-li-item white-text">Magunkról</li>
+                            <li class="footer-li-item white-text">ÁSZF</li>
+                            <li class="footer-li-item white-text">Adatvédelmi tájékoztató</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-socials">
+            <div class="row copyright-row">
+                <div class="col-md-6 copyright-img-col d-flex justify-content-center align-items-center">
+                    <img class="copyright-img" src="./assets/img/copyright.png">
+                </div>
+                <div class="col-md-6 footer-socials">
+                    <p class="follow-us-text white-text">Kövess minket</p>
+                    <a href="#"><img id="footer-fb" class="socials-img-fb" src="./assets/img/fb.png"></a>
+                    <a href="#"><img id="footer-in" class="socials-img-fb" src="./assets/img/linkedin.png"></a>
+                    <a href="#"><img id="footer-insta" class="socials-img-fb" src="./assets/img/insta.png"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
